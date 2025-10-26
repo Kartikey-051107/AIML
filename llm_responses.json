@@ -1,62 +1,62 @@
 [
     {
         "prompt": "What is an operating system?",
-        "response": "Error: HTTPSConnectionPool(host='api.example.com', port=443): Max retries exceeded with url: /v1/completions (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x1059eef90>: Failed to resolve 'api.example.com' ([Errno 8] nodename nor servname provided, or not known)\"))",
-        "timestamp": "2025-10-22T16:55:51.312668Z"
+        "response": "Error: 401 Client Error: Unauthorized for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent",
+        "timestamp": "2025-10-26T10:27:45.963482Z"
     },
     {
         "prompt": "What is the OSI model?",
-        "response": "Error: HTTPSConnectionPool(host='api.example.com', port=443): Max retries exceeded with url: /v1/completions (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x105fea490>: Failed to resolve 'api.example.com' ([Errno 8] nodename nor servname provided, or not known)\"))",
-        "timestamp": "2025-10-22T16:55:51.312794Z"
+        "response": "Error: 401 Client Error: Unauthorized for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent",
+        "timestamp": "2025-10-26T10:27:45.963505Z"
     },
     {
         "prompt": "Who was Alan Turing?",
-        "response": "Error: HTTPSConnectionPool(host='api.example.com', port=443): Max retries exceeded with url: /v1/completions (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x105fe9090>: Failed to resolve 'api.example.com' ([Errno 8] nodename nor servname provided, or not known)\"))",
-        "timestamp": "2025-10-22T16:55:51.312796Z"
+        "response": "Error: 401 Client Error: Unauthorized for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent",
+        "timestamp": "2025-10-26T10:27:45.963510Z"
     },
     {
         "prompt": "How do computer networks work?",
-        "response": "Error: HTTPSConnectionPool(host='api.example.com', port=443): Max retries exceeded with url: /v1/completions (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x105fe9310>: Failed to resolve 'api.example.com' ([Errno 8] nodename nor servname provided, or not known)\"))",
-        "timestamp": "2025-10-22T16:55:51.312797Z"
+        "response": "Error: 401 Client Error: Unauthorized for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent",
+        "timestamp": "2025-10-26T10:27:45.963514Z"
     },
     {
         "prompt": "What is the Linux Kernel?",
-        "response": "Error: HTTPSConnectionPool(host='api.example.com', port=443): Max retries exceeded with url: /v1/completions (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x105fe8910>: Failed to resolve 'api.example.com' ([Errno 8] nodename nor servname provided, or not known)\"))",
-        "timestamp": "2025-10-22T16:55:51.312798Z"
+        "response": "Error: 401 Client Error: Unauthorized for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent",
+        "timestamp": "2025-10-26T10:27:45.963517Z"
     },
     {
         "prompt": "What is a File system?",
-        "response": "Error: HTTPSConnectionPool(host='api.example.com', port=443): Max retries exceeded with url: /v1/completions (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x105fe8b90>: Failed to resolve 'api.example.com' ([Errno 8] nodename nor servname provided, or not known)\"))",
-        "timestamp": "2025-10-22T16:55:51.312798Z"
+        "response": "Error: 401 Client Error: Unauthorized for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent",
+        "timestamp": "2025-10-26T10:27:45.963520Z"
     },
     {
         "prompt": "What is Docker?",
-        "response": "Error: HTTPSConnectionPool(host='api.example.com', port=443): Max retries exceeded with url: /v1/completions (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x105fe8f50>: Failed to resolve 'api.example.com' ([Errno 8] nodename nor servname provided, or not known)\"))",
-        "timestamp": "2025-10-22T16:55:51.312799Z"
+        "response": "Error: 401 Client Error: Unauthorized for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent",
+        "timestamp": "2025-10-26T10:27:45.963522Z"
     },
     {
         "prompt": "What is a GPU and how is it different from a CPU?",
-        "response": "Error: HTTPSConnectionPool(host='api.example.com', port=443): Max retries exceeded with url: /v1/completions (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x105fea710>: Failed to resolve 'api.example.com' ([Errno 8] nodename nor servname provided, or not known)\"))",
-        "timestamp": "2025-10-22T16:55:51.312800Z"
+        "response": "Error: 401 Client Error: Unauthorized for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent",
+        "timestamp": "2025-10-26T10:27:45.963525Z"
     },
     {
         "prompt": "What are the layers of the OSI model?",
-        "response": "Error: HTTPSConnectionPool(host='api.example.com', port=443): Max retries exceeded with url: /v1/completions (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x105fea990>: Failed to resolve 'api.example.com' ([Errno 8] nodename nor servname provided, or not known)\"))",
-        "timestamp": "2025-10-22T16:55:51.312801Z"
+        "response": "Error: 401 Client Error: Unauthorized for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent",
+        "timestamp": "2025-10-26T10:27:45.963528Z"
     },
     {
         "prompt": "What is BeeGFS?",
-        "response": "Error: HTTPSConnectionPool(host='api.example.com', port=443): Max retries exceeded with url: /v1/completions (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x105feac10>: Failed to resolve 'api.example.com' ([Errno 8] nodename nor servname provided, or not known)\"))",
-        "timestamp": "2025-10-22T16:55:51.312801Z"
+        "response": "Error: 401 Client Error: Unauthorized for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent",
+        "timestamp": "2025-10-26T10:27:45.963531Z"
     },
     {
         "prompt": "What are the various components that comprise a computer?",
-        "response": "Error: HTTPSConnectionPool(host='api.example.com', port=443): Max retries exceeded with url: /v1/completions (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x105feae90>: Failed to resolve 'api.example.com' ([Errno 8] nodename nor servname provided, or not known)\"))",
-        "timestamp": "2025-10-22T16:55:51.312802Z"
+        "response": "Error: 401 Client Error: Unauthorized for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent",
+        "timestamp": "2025-10-26T10:27:45.963533Z"
     },
     {
         "prompt": "What is Federated Learning?",
-        "response": "Error: HTTPSConnectionPool(host='api.example.com', port=443): Max retries exceeded with url: /v1/completions (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x105feb110>: Failed to resolve 'api.example.com' ([Errno 8] nodename nor servname provided, or not known)\"))",
-        "timestamp": "2025-10-22T16:55:51.312803Z"
+        "response": "Error: 401 Client Error: Unauthorized for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent",
+        "timestamp": "2025-10-26T10:27:45.963536Z"
     }
 ]

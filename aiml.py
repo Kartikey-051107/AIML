@@ -4,8 +4,8 @@ from datetime import datetime
 from typing import List
 
 # ---------- Configuration ----------
-API_URL = "https://api.example.com/v1/completions"  # ⚠️ Replace with actual LLM API endpoint
-API_KEY = "YOUR_API_KEY_HERE"                       # ⚠️ Replace with your real API key
+API_URL =" https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent"
+API_KEY = "YOur_API_KEY"                      
 INPUT_FILE_PATH = "input_prompts.txt"
 OUTPUT_FILE_PATH = "llm_responses.json"
 
@@ -38,7 +38,7 @@ def call_llm_api(prompt: str) -> str:
         # Adjust based on actual API response format
         return data.get("choices", [{}])[0].get("text", "").strip()
     except Exception as e:
-        print(f"❌ Error processing prompt: {prompt}\n→ {e}")
+        print(f" Error processing prompt: {prompt}\n→ {e}")
         return f"Error: {str(e)}"
 
 
@@ -59,16 +59,16 @@ def save_responses_to_json(prompts: List[str], responses: List[str], output_path
 # ---------- Main Execution ----------
 def main():
     """Main entry point of the script."""
-    print("📥 Reading prompts...")
+    print("Reading prompts...")
     prompts = read_prompts_from_file(INPUT_FILE_PATH)
 
-    print(f"⚙️ Sending {len(prompts)} prompts to the LLM API...")
+    print(f" Sending {len(prompts)} prompts to the LLM API...")
     responses = [call_llm_api(prompt) for prompt in prompts]
 
-    print("💾 Saving responses to JSON file...")
+    print("Saving responses to JSON file...")
     save_responses_to_json(prompts, responses, OUTPUT_FILE_PATH)
 
-    print(f"✅ All done! Results saved to {OUTPUT_FILE_PATH}")
+    print(f" All done! Results saved to {OUTPUT_FILE_PATH}")
 
 
 if __name__ == "__main__":
