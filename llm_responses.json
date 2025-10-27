@@ -1,62 +1,62 @@
 [
     {
         "prompt": "What is an operating system?",
-        "response": "Error: 401 Client Error: Unauthorized for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent",
-        "timestamp": "2025-10-26T10:27:45.963482Z"
+        "response": "Error: 400 Client Error: Bad Request for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent",
+        "timestamp": "2025-10-27T06:20:43.246952Z"
     },
     {
         "prompt": "What is the OSI model?",
-        "response": "Error: 401 Client Error: Unauthorized for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent",
-        "timestamp": "2025-10-26T10:27:45.963505Z"
+        "response": "Error: 400 Client Error: Bad Request for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent",
+        "timestamp": "2025-10-27T06:20:43.246952Z"
     },
     {
         "prompt": "Who was Alan Turing?",
-        "response": "Error: 401 Client Error: Unauthorized for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent",
-        "timestamp": "2025-10-26T10:27:45.963510Z"
+        "response": "Error: 400 Client Error: Bad Request for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent",
+        "timestamp": "2025-10-27T06:20:43.246952Z"
     },
     {
         "prompt": "How do computer networks work?",
-        "response": "Error: 401 Client Error: Unauthorized for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent",
-        "timestamp": "2025-10-26T10:27:45.963514Z"
+        "response": "Error: 400 Client Error: Bad Request for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent",
+        "timestamp": "2025-10-27T06:20:43.246952Z"
     },
     {
         "prompt": "What is the Linux Kernel?",
-        "response": "Error: 401 Client Error: Unauthorized for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent",
-        "timestamp": "2025-10-26T10:27:45.963517Z"
+        "response": "Error: 400 Client Error: Bad Request for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent",
+        "timestamp": "2025-10-27T06:20:43.246952Z"
     },
     {
         "prompt": "What is a File system?",
-        "response": "Error: 401 Client Error: Unauthorized for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent",
-        "timestamp": "2025-10-26T10:27:45.963520Z"
+        "response": "Error: 400 Client Error: Bad Request for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent",
+        "timestamp": "2025-10-27T06:20:43.246952Z"
     },
     {
         "prompt": "What is Docker?",
-        "response": "Error: 401 Client Error: Unauthorized for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent",
-        "timestamp": "2025-10-26T10:27:45.963522Z"
+        "response": "Error: 400 Client Error: Bad Request for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent",
+        "timestamp": "2025-10-27T06:20:43.246952Z"
     },
     {
         "prompt": "What is a GPU and how is it different from a CPU?",
-        "response": "Error: 401 Client Error: Unauthorized for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent",
-        "timestamp": "2025-10-26T10:27:45.963525Z"
+        "response": "Error: 400 Client Error: Bad Request for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent",
+        "timestamp": "2025-10-27T06:20:43.246952Z"
     },
     {
         "prompt": "What are the layers of the OSI model?",
-        "response": "Error: 401 Client Error: Unauthorized for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent",
-        "timestamp": "2025-10-26T10:27:45.963528Z"
+        "response": "Error: 400 Client Error: Bad Request for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent",
+        "timestamp": "2025-10-27T06:20:43.246952Z"
     },
     {
         "prompt": "What is BeeGFS?",
-        "response": "Error: 401 Client Error: Unauthorized for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent",
-        "timestamp": "2025-10-26T10:27:45.963531Z"
+        "response": "Error: 400 Client Error: Bad Request for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent",
+        "timestamp": "2025-10-27T06:20:43.246952Z"
     },
     {
         "prompt": "What are the various components that comprise a computer?",
-        "response": "Error: 401 Client Error: Unauthorized for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent",
-        "timestamp": "2025-10-26T10:27:45.963533Z"
+        "response": "Error: 400 Client Error: Bad Request for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent",
+        "timestamp": "2025-10-27T06:20:43.246952Z"
     },
     {
         "prompt": "What is Federated Learning?",
-        "response": "Error: 401 Client Error: Unauthorized for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent",
-        "timestamp": "2025-10-26T10:27:45.963536Z"
+        "response": "Error: 400 Client Error: Bad Request for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent",
+        "timestamp": "2025-10-27T06:20:43.246952Z"
     }
 ]

@@ -4,7 +4,7 @@ from datetime import datetime
 from typing import List
 
 # ---------- Configuration ----------
-API_URL =" https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent"
+API_URL = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent"
 API_KEY = ""                      
 INPUT_FILE_PATH = "input_prompts.txt"
 OUTPUT_FILE_PATH = "llm_responses.json"
@@ -20,23 +20,16 @@ def read_prompts_from_file(file_path: str) -> List[str]:
 
 def call_llm_api(prompt: str) -> str:
     """Sends a single prompt to the LLM API and returns the model's response text."""
-    headers = {
-        "Authorization": f"Bearer {API_KEY}",
-        "Content-Type": "application/json"
-    }
+    headers = { "Content-Type": "application/json", "x-goog-api-key": API_KEY }
 
-    payload = {
-        "model": "gemma-2b",        # or "grok-1", etc.
-        "prompt": prompt,
-        "max_tokens": 150
-    }
+    payload = { "contents": [ { "role": "user", "parts": [{"text": prompt}] } ], "config": { "max_output_tokens": 150 } }
 
     try:
         response = requests.post(API_URL, headers=headers, json=payload, timeout=30)
         response.raise_for_status()
         data = response.json()
         # Adjust based on actual API response format
-        return data.get("choices", [{}])[0].get("text", "").strip()
+        return data["candidates"][0]["content"]["parts"][0]["text"].strip()
     except Exception as e:
         print(f" Error processing prompt: {prompt}\n→ {e}")
         return f"Error: {str(e)}"
